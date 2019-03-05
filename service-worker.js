@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/visitSeattle/precache-manifest.faa1f2acae2972f5fd978794c67f04c1.js"
+  "/visitSeattle/precache-manifest.ef33875333aeec0fa2ab50f826b92cc2.js"
 );
 
 workbox.clientsClaim();
