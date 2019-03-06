@@ -1,12 +1,9 @@
-import React, {component, Component}from 'react';
-import{BrowserRouter, Route,Switch} from 'react-router-dom';
+import React, {Component}from 'react';
+import{BrowserRouter, Route} from 'react-router-dom';
 
 import Home from "./components/Home";
 import { withStyles } from '@material-ui/core/styles';
-import Community from "./components/Community";
-import Transportation from "./components/Transporation";
-import Landmarks from "./components/Landmarks";
-import Cafes from "./components/Cafes";
+
 
 const styles = {}
 

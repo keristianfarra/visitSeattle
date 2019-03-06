@@ -22,21 +22,21 @@ export default class SimpleSlider extends React.Component {
       slidesToScroll: 1}
       
     return (
-    
-      <Slider {...settings}>
-      <div>
-          <img src= {home} alt="Seattle Skyline"/>
-        </div>
-        <div>
-          <img src= {FremontTroll} alt="The Fremont Troll in Seattle."/>
-        </div>
-        <div>
-          <img src={PikePlaceMarket} alt="Pike Place Market in Downtown Seattle."/>
-        </div>
-        <div>
-          <img src= {GumWall} alt="The Famous Gum Wall."/>
-    </div>
-      </Slider>
+
+  <Slider {...settings}>    
+  <img
+  fit="contain"
+  src= {home} alt="Seattle Skyline" />
+  <img
+  fit="contain"
+  src= {FremontTroll} alt="The Fremont Troll in Seattle."/>
+  <img
+  fit="contain"
+  src={PikePlaceMarket} alt="Pike Place Market in Downtown Seattle."/>
+  <img
+  fit="contain"
+  src= {GumWall} alt="The Famous Gum Wall."/>
+  </Slider> 
     );
   }
 } 
