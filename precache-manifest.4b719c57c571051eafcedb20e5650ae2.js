@@ -16,23 +16,27 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/FremontTroll.064536ee.jpg"
   },
   {
+    "revision": "3dff291d0f9321a607a9093b70e35111",
+    "url": "/visitSeattle/static/media/CommunityDiscussion.3dff291d.png"
+  },
+  {
     "revision": "427cc8e69bb5df8f3a5c",
     "url": "/visitSeattle/static/js/runtime~main.427cc8e6.js"
   },
   {
-    "revision": "24e32703879c27907f6d",
-    "url": "/visitSeattle/static/js/main.24e32703.chunk.js"
+    "revision": "0d54c6523c5394001bdc",
+    "url": "/visitSeattle/static/js/main.0d54c652.chunk.js"
   },
   {
-    "revision": "0b7485671cc536b9c6e8",
-    "url": "/visitSeattle/static/js/2.0b748567.chunk.js"
+    "revision": "208142ac31457bc134c6",
+    "url": "/visitSeattle/static/js/2.208142ac.chunk.js"
   },
   {
-    "revision": "24e32703879c27907f6d",
-    "url": "/visitSeattle/static/css/main.6afeb258.chunk.css"
+    "revision": "0d54c6523c5394001bdc",
+    "url": "/visitSeattle/static/css/main.19c7bc6e.chunk.css"
   },
   {
-    "revision": "2a9628f44da74e6c9d48d07b168303cf",
+    "revision": "c0354cebc3254f23a89bdeb1a1925fcd",
     "url": "/visitSeattle/index.html"
   }
 ];
