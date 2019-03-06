@@ -9,7 +9,7 @@ import NoSsr from '@material-ui/core/NoSsr';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import HomeImage from './home.jpg';
-import SimpleSlider from "./Slider"
+import SimpleSlider from "./Slider";
 
 
 function TabContainer(props) {
@@ -44,7 +44,6 @@ class Home extends React.Component {
 
     return (
       <div> 
-        <NoSsr>
             <div className={classes.root}>
             <AppBar position="static">
                 <Tabs variant="fullWidth" value={value} onChange={this.handleChange}>
@@ -56,7 +55,7 @@ class Home extends React.Component {
                 </Tabs>
             </AppBar>
             </div>
-        </NoSsr>
+       
         <SimpleSlider/>
       </div>
     );

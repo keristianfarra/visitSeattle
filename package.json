@@ -5,7 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.0.1",
+    "material-design-icons": "^3.0.1",
     "react": "^16.8.3",
+    "react-animated-slider": "^1.1.4",
     "react-dom": "^16.8.3",
     "react-fitted-image": "^0.1.4",
     "react-router": "^4.3.1",
