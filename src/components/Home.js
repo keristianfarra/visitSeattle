@@ -1,15 +1,18 @@
 
 /** Just the tab bars */
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
+/* import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs'; */
 import NoSsr from '@material-ui/core/NoSsr';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import HomeImage from './home.jpg';
 import SimpleSlider from "./Slider";
+// import Link from '@material-ui/core/Link';
+// import {Link}from "react-router-dom";
+// import {Button} from '@material-ui/core';
 
 
 function TabContainer(props) {
@@ -27,7 +30,7 @@ TabContainer.propTypes = {
 function LinkTab(props) {
   return <Tab component="a" onClick={event => event.preventDefault()} {...props} />;
 }
-const styles = {backgroundImage: `url(${ HomeImage })`}
+const styles = {}
 
 class Home extends React.Component {
   state = {
@@ -45,15 +48,7 @@ class Home extends React.Component {
     return (
       <div> 
             <div className={classes.root}>
-            <AppBar position="static">
-                <Tabs variant="fullWidth" value={value} onChange={this.handleChange}>
-                <LinkTab label="Home" href="Home" />
-                <LinkTab label="Community" href="Community" />
-                <LinkTab label="Transporation" href="Transporation" />
-                <LinkTab label="Landmarks" href="Landmarks" />
-                <LinkTab label="Cafes" href="Cafes" />
-                </Tabs>
-            </AppBar>
+           
             </div>
        
         <SimpleSlider/>
