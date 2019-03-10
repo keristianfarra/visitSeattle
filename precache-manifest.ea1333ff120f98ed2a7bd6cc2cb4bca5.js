@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "da8e6cd38bbcd2b5599a37aaf358d5e1",
-    "url": "/visitSeattle/static/media/FremontLeninStatue.da8e6cd3.jpg"
+    "revision": "1bb595297baef8387909f949c455a6fd",
+    "url": "/visitSeattle/static/media/FremontLeninStatue.1bb59529.jpg"
   },
   {
-    "revision": "a01f299c45ddf5216e0a",
+    "revision": "7d6fcb474f2cbf5a62aa",
     "url": "/visitSeattle/static/css/main.af6bcfa7.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/js/runtime~main.427cc8e6.js"
   },
   {
-    "revision": "bf5e1f7a99581713e9b2",
-    "url": "/visitSeattle/static/js/2.bf5e1f7a.chunk.js"
+    "revision": "ad7caf0b0538160c791c",
+    "url": "/visitSeattle/static/js/2.ad7caf0b.chunk.js"
   },
   {
     "revision": "908f2c87dfed2f9b7b6ecd7b17e066a1",
     "url": "/visitSeattle/static/media/home.908f2c87.jpg"
   },
   {
-    "revision": "3956736a37b071e9610d820fd3f5d3a4",
-    "url": "/visitSeattle/static/media/FremontTroll.3956736a.jpg"
+    "revision": "ca00dcb94e848bbbed98ca92cc1e74ed",
+    "url": "/visitSeattle/static/media/FremontTroll.ca00dcb9.jpg"
   },
   {
     "revision": "7abf633c199c10fcb519752b296e012d",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/CommunityDiscussion.3dff291d.png"
   },
   {
-    "revision": "f1f3aa1cc08ac91a1095837e9721beeb",
-    "url": "/visitSeattle/static/media/LandmarksBackground.f1f3aa1c.jpg"
+    "revision": "c82433c9f604081ade021772d9cd4004",
+    "url": "/visitSeattle/static/media/LandmarksBanner.c82433c9.png"
   },
   {
     "revision": "3ea9a09e34df0b70f10d5177ce6cbf8a",
@@ -52,24 +52,24 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/AlkiStatueOfLiberty.7fc63f2d.jpg"
   },
   {
-    "revision": "d563793302cb27aa97773b7946442bf7",
-    "url": "/visitSeattle/static/media/FremontTroll.d5637933.png"
+    "revision": "10f6b8aabbc09b96d324d08db3c7747a",
+    "url": "/visitSeattle/static/media/FremontTrollLandmarkFinal.10f6b8aa.jpg"
   },
   {
-    "revision": "a01f299c45ddf5216e0a",
-    "url": "/visitSeattle/static/js/main.a01f299c.chunk.js"
+    "revision": "7d6fcb474f2cbf5a62aa",
+    "url": "/visitSeattle/static/js/main.7d6fcb47.chunk.js"
   },
   {
-    "revision": "8ea5424bd0f83ff00db9dcc4e11f3d83",
-    "url": "/visitSeattle/static/media/FremontPublicMarket.8ea5424b.jpg"
+    "revision": "5c1d85cc28144779e1d48ba0dd4425c6",
+    "url": "/visitSeattle/static/media/FremontPublicMarket.5c1d85cc.jpg"
   },
   {
     "revision": "5ebf3cff68ad814d443c5483c56333f6",
     "url": "/visitSeattle/static/media/LakeUnion.5ebf3cff.jpg"
   },
   {
-    "revision": "1eecd64fbdb2841a6567592c0fd8e0c4",
-    "url": "/visitSeattle/static/media/LakeUnionGasworksPark.1eecd64f.jpg"
+    "revision": "1116f0589ee0dd04cc86c3b7b3c19d23",
+    "url": "/visitSeattle/static/media/LakeUnionGasworksPark.1116f058.jpg"
   },
   {
     "revision": "d79d37411687edcd15f18092bcb24ec9",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/DowntownGreatWheel.c27c927e.jpg"
   },
   {
-    "revision": "50ce31243a7a3c513b2827eaf8927d79",
+    "revision": "7f08eeeaef07dc682ef2c531b31ca7fc",
     "url": "/visitSeattle/index.html"
   }
 ];
