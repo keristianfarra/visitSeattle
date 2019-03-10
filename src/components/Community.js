@@ -96,7 +96,7 @@ function PaperSheet(props) {
 
               </Typography>
               <Typography component="p">
-                Question: Where can I get authentic Korean food?
+                Question: Where can I get authentic Korean food? <br /><br />
 
                 Answer: There’s a good place underneath the 5th avenue theater called
                 “Umma’s Lunchbox”. Construction is happening there right now,
