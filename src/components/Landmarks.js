@@ -72,84 +72,86 @@ function PaperSheet(props) {
 
             <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
-                    <CardActionArea>
-                        <Typography component="h1">
-                            Alki
+                    <Card className={classes.card}>
+                        <CardActionArea>
+                            <Typography component="h1">
+                                Alki
                         </Typography>
-                        <CardMedia
-                            component="img"
-                            alt="Alki Point Lighthouse"
-                            className={classes.media}
-                            height="140"
-                            image={AlkiPointLighthouse}
-                            title="Alki Point Lighthouse"
-                        />
-                        <CardContent>
-                            <Typography component="h4">
-                                Alki Point Lighthouse
+                            <CardMedia
+                                component="img"
+                                alt="Alki Point Lighthouse"
+                                className={classes.media}
+                                height="140"
+                                image={AlkiPointLighthouse}
+                                title="Alki Point Lighthouse"
+                            />
+                            <CardContent>
+                                <Typography component="h4">
+                                    Alki Point Lighthouse
                             </Typography>
-                            <Typography component="p">
-                                <br />Though it’s not open to the public, it can <br />
-                                be toured on summer weekends. The <br />
-                                building serves as a point of navigation <br />
-                                and adds to the feeling of Alki being a <br />
-                                beach area with a beautiful view.
+                                <Typography component="p">
+                                    <br />Though it’s not open to the public, it can <br />
+                                    be toured on summer weekends. The <br />
+                                    building serves as a point of navigation <br />
+                                    and adds to the feeling of Alki being a <br />
+                                    beach area with a beautiful view.
                             </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
+                            </CardContent>
+                        </CardActionArea>
+                    </Card>
 
-                <Card className={classes.card}>
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            alt="Alki Beach"
-                            className={classes.media}
-                            height="140"
-                            image={AlkiBeach}
-                            title="Alki Beach"
-                        />
-                        <CardContent>
-                            <Typography component="h4">
-                                Alki Beach
+                    <Card className={classes.card}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Alki Beach"
+                                className={classes.media}
+                                height="140"
+                                image={AlkiBeach}
+                                title="Alki Beach"
+                            />
+                            <CardContent>
+                                <Typography component="h4">
+                                    Alki Beach
                             </Typography>
-                            <Typography component="p">
-                                <br />A spot to swim and enjoy the Seattle <br />
-                                skyline. The beach also has a 2.5 mile <br />
-                                long path for runners and roller-skaters.
+                                <Typography component="p">
+                                    <br />A spot to swim and enjoy the Seattle <br />
+                                    skyline. The beach also has a 2.5 mile <br />
+                                    long path for runners and roller-skaters.
                             </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
+                            </CardContent>
+                        </CardActionArea>
+                    </Card>
 
-                <Card className={classes.card}>
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            alt="Replica Statue of Liberty"
-                            className={classes.media}
-                            height="140"
-                            image={AlkiStatueOfLiberty}
-                            title="Replica Statue of Liberty"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
+                    <Card className={classes.card}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Replica Statue of Liberty"
+                                className={classes.media}
+                                height="140"
+                                image={AlkiStatueOfLiberty}
+                                title="Replica Statue of Liberty"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
 
+                                </Typography>
+                                <Typography component="h4">
+                                    Replica Statue of Liberty
                             </Typography>
-                            <Typography component="h4">
-                                Replica Statue of Liberty
-                            </Typography>
-                            <Typography component="p">
-                                <br />
-                                Donated to the public by Boy Scouts in
+                                <Typography component="p">
+                                    <br />
+                                    Donated to the public by Boy Scouts in
                                 the 1950’s, <br /> this makes it clear you’re
                                 visiting a city in the United <br /> States.
                                 The statue was rebuilt after frequent <br />
-                                vandalism and remains as a meeting
-                                point.
+                                    vandalism and remains as a meeting
+                                    point.
                             </Typography>
-                        </CardContent>
-                    </CardActionArea>
+                            </CardContent>
+                        </CardActionArea>
+                    </Card>
                 </Card>
             </Paper>
 

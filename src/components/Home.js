@@ -9,11 +9,15 @@ import Tabs from '@material-ui/core/Tabs'; */
 import NoSsr from '@material-ui/core/NoSsr';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import SimpleSlider from "./Slider";
+// import SimpleSlider from "./Slider";
+import Paper from '@material-ui/core/Paper';
 // import Link from '@material-ui/core/Link';
 // import {Link}from "react-router-dom";
 // import {Button} from '@material-ui/core';
-
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardMedia from '@material-ui/core/CardMedia';
+import home from './home.jpg';
 
 function TabContainer(props) {
   return (
@@ -46,12 +50,28 @@ class Home extends React.Component {
     const { value } = this.state;
 
     return (
-      <div> 
-            <div className={classes.root}>
-           
-            </div>
-       
-        <SimpleSlider/>
+      <div>
+        <div className={classes.root}>
+
+        </div>
+
+        {/* <SimpleSlider/> */}
+        <div class="container">
+          <Paper className={classes.root} elevation={1}>
+            <Card className={classes.card}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Visit Seattle Home Page"
+                  className={classes.media}
+                  height="140"
+                  image={home}
+                  title="Seattle Skyline"
+                />
+              </CardActionArea>
+            </Card>
+          </Paper>
+        </div>
       </div>
     );
   }
