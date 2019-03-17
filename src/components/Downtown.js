@@ -39,7 +39,7 @@ function PaperSheet(props) {
                     <CardActionArea>
                         <Typography component="h1">
                             Downtown
-        </Typography>
+                        </Typography>
                         <CardMedia
                             component="img"
                             alt="Westlake Shopping Center"
@@ -51,13 +51,13 @@ function PaperSheet(props) {
                         <CardContent>
                             <Typography component="h4">
                                 Westlake Shopping Center
-            </Typography>
+                        </Typography>
                             <Typography component="p">
                                 <br />A bustling shopping area with an <br />
                                 underground transportation hub. <br />
                                 Westlake Center is the meeting place for<br />
                                 protests and parades, it’s always busy.
-            </Typography>
+                        </Typography>
                         </CardContent>
                     </CardActionArea>
                 </Card>
@@ -75,7 +75,7 @@ function PaperSheet(props) {
                         <CardContent>
                             <Typography component="h4">
                                 Pike Place Gum Wall
-            </Typography>
+                        </Typography>
                             <Typography component="p">
                                 <br />A market that’s unique to Seattle, and  <br />
                                 always has something to explore. Pike  <br />
@@ -99,14 +99,14 @@ function PaperSheet(props) {
                         <CardContent>
                             <Typography component="h4">
                                 Great Ferris Wheel
-            </Typography>
+                        </Typography>
                             <Typography component="p">
                                 <br />
                                 Located near the Seattle Aquarium and  <br />
                                 Pike Place, this wheel has a view of the  <br />
                                 harbor. Tickets can be purchased online  <br />
                                 in advance to avoid long lines.
-            </Typography>
+                        </Typography>
                         </CardContent>
                     </CardActionArea>
                 </Card>

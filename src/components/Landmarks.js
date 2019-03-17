@@ -11,6 +11,13 @@ import Paper from '@material-ui/core/Paper';
 //Landmarks background image of the Space Needle
 import LandmarksBanner from './LandmarksBanner.png';
 
+//Banners
+import AlkiBanner from './AlkiBanner.png'
+import FremontBanner from './FremontBanner.png'
+import LakeUnionBanner from './LakeUnionBanner.png'
+import QueenAnneBanner from './QueenAnneBanner.png'
+import UDistrictBanner from './UDistrictBanner.png'
+import DowntownBanner from './DowntownBanner.png'
 // //All the imports of images used in the landmarks cards.
 // //Imports are kept here as a backup comment in case other javascript files are corrupted.
 //
@@ -67,6 +74,84 @@ function PaperSheet(props) {
                         height="140"
                         image={LandmarksBanner}
                         title="Landmarks in Seattle"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="Queen Anne Banner"
+                        className={classes.media}
+                        height="140"
+                        image={QueenAnneBanner}
+                        title="Queen Anne (click to look at Queen Anne page)"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="Downtown Banner"
+                        className={classes.media}
+                        height="140"
+                        image={DowntownBanner}
+                        title="Downtown (click to look at Downtown page)"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="Lake Union Banner"
+                        className={classes.media}
+                        height="140"
+                        image={LakeUnionBanner}
+                        title="Lake Union (click to look at Lake Union page)"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="University District Banner"
+                        className={classes.media}
+                        height="140"
+                        image={UDistrictBanner}
+                        title="University District (click to look at U-District page)"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="Fremont Banner"
+                        className={classes.media}
+                        height="140"
+                        image={FremontBanner}
+                        title="Fremont (click to look at Fremont page)"
+                    />
+                </Card>
+            </Paper>
+
+            <Paper className={classes.root} elevation={1}>
+                <Card className={classes.card}>
+                    <CardMedia
+                        component="img"
+                        alt="Alki Banner"
+                        className={classes.media}
+                        height="140"
+                        image={AlkiBanner}
+                        title="Alki (click to look at Alki page)"
                     />
                 </Card>
             </Paper>

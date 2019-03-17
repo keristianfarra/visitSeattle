@@ -25,11 +25,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 
-//Images for Fremont page
-import FremontTrollLandmarkFinal from './FremontTrollLandmarkFinal.jpg';
-import FremontLeninStatue from './FremontLeninStatue.jpg';
-import FremontPublicMarket from './FremontPublicMarket.jpg';
-
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(),
