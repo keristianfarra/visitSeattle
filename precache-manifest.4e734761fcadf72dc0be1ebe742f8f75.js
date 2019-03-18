@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/QueenAnneSpaceNeedle.1da2c815.jpg"
   },
   {
-    "revision": "66aff8d5213c19b8aeb8",
+    "revision": "6ae0e9529199a089260e",
     "url": "/visitSeattle/static/css/main.146ba379.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/AlkiBanner.d4f02d1f.png"
   },
   {
-    "revision": "908f2c87dfed2f9b7b6ecd7b17e066a1",
-    "url": "/visitSeattle/static/media/home.908f2c87.jpg"
+    "revision": "c6b072603fcbce71c92b6e14ee9d323f",
+    "url": "/visitSeattle/static/media/homeSeattle.c6b07260.jpg"
   },
   {
     "revision": "3dff291d0f9321a607a9093b70e35111",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/DowntownBanner.7dd53f26.png"
   },
   {
-    "revision": "66aff8d5213c19b8aeb8",
-    "url": "/visitSeattle/static/js/main.66aff8d5.chunk.js"
+    "revision": "6ae0e9529199a089260e",
+    "url": "/visitSeattle/static/js/main.6ae0e952.chunk.js"
   },
   {
     "revision": "a13348904ea3db018364bc2231da1296",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/FremontPublicMarket.5c1d85cc.jpg"
   },
   {
-    "revision": "6f33d6139bdd814b234ac991fe52bf3a",
+    "revision": "2c2e65ac219bc6bba11669a591ea9d08",
     "url": "/visitSeattle/index.html"
   }
 ];
