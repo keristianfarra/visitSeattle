@@ -26,37 +26,6 @@ import QueenAnneBanner from './QueenAnneBanner.png'
 import UDistrictBanner from './UDistrictBanner.png'
 import DowntownBanner from './DowntownBanner.png'
 
-// import { Link } from 'react-router-dom'
-// import Alki from "./components/Alki";
-
-// const AlkiLink = props => <Link to="./components/Alki.js" {...props} />
-// //All the imports of images used in the landmarks cards.
-// //Imports are kept here as a backup comment in case other javascript files are corrupted.
-//
-// import AlkiPointLighthouse from './AlkiPointLighthouse.jpg';
-// import AlkiBeach from './AlkiBeach.jpg';
-// import AlkiStatueOfLiberty from './AlkiStatueOfLiberty.jpg';
-
-// import FremontTrollLandmarkFinal from './FremontTrollLandmarkFinal.jpg';
-// import FremontLeninStatue from './FremontLeninStatue.jpg';
-// import FremontPublicMarket from './FremontPublicMarket.jpg';
-
-// import LakeUnion from './LakeUnion.jpg'
-// import LakeUnionGasworksPark from './LakeUnionGasworksPark.jpg';
-// import LakeUnionMOHAI from './LakeUnionMOHAI.jpg';
-
-// import QueenAnneSpaceNeedle from './QueenAnneSpaceNeedle.jpg';
-// import QueenAnneMuseum from './QueenAnneMuseum.jpg';
-// import QueenAnnePacificScienceCenter from './QueenAnnePacificScienceCenter.jpg';
-
-// import UDistrictUniversity from './UDistrictUniversity.jpg';
-// import UDistrictAve from './UDistrictAve.jpg';
-// import UDistrictBurkeMuseum from './UDistrictBurkeMuseum.jpg';
-
-// import DowntownWestlake from './DowntownWestlake.jpg';
-// import DowntownGumWall from './DowntownGumWall.jpg';
-// import DowntownGreatWheel from './DowntownGreatWheel.jpg';
-
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(),
@@ -69,6 +38,13 @@ const styles = theme => ({
         textAlign: 'center',
         fontfamily: 'Roboto'
     },
+    button: {
+        margin: theme.spacing.unit,
+    },
+    input: {
+        display: 'none',
+    },
+
 });
 
 function PaperSheet(props) {
@@ -101,17 +77,14 @@ function PaperSheet(props) {
                         title="Queen Anne (click to look at Queen Anne page)"
                     />
                 </Card>
-                <CardActions> 
+                <CardActions>
                     <Link to="/Landmarks/QueenAnne">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
+                        <Button variant="contained" color="primary" className={classes.button}
                         >
-                        Explore Queen Anne
+                            Explore Queen Anne
                     </Button>
                     </Link>
-                    </CardActions> 
+                </CardActions>
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -125,17 +98,14 @@ function PaperSheet(props) {
                         title="Downtown (click to look at Downtown page)"
                     />
                 </Card>
-                <CardActions> 
+                <CardActions>
                     <Link to="/Landmarks/Downtown">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
+                        <Button variant="contained" color="primary" className={classes.button}
                         >
-                        Explore Downtown 
+                            Explore Downtown
                     </Button>
                     </Link>
-                    </CardActions> 
+                </CardActions>
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -149,17 +119,14 @@ function PaperSheet(props) {
                         title="Lake Union (click to look at Lake Union page)"
                     />
                 </Card>
-                <CardActions> 
-                        <Link to="/Landmarks/LakeUnion">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
+                <CardActions>
+                    <Link to="/Landmarks/LakeUnion">
+                        <Button variant="contained" color="primary" className={classes.button}
                         >
-                        Explore Lake Union
+                            Explore Lake Union
                     </Button>
                     </Link>
-                    </CardActions> 
+                </CardActions>
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -173,17 +140,14 @@ function PaperSheet(props) {
                         title="University District (click to look at U-District page)"
                     />
                 </Card>
-                <CardActions> 
+                <CardActions>
                     <Link to="/Landmarks/UDistrict">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
+                        <Button variant="contained" color="primary" className={classes.button}
                         >
-                        Explore U-District
+                            Explore U-District
                     </Button>
                     </Link>
-                    </CardActions> 
+                </CardActions>
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -196,19 +160,16 @@ function PaperSheet(props) {
                         image={FremontBanner}
                         title="Fremont (click to look at Fremont page)"
                     />
-                    
+
                 </Card>
-                <CardActions> 
+                <CardActions>
                     <Link to="/Landmarks/Fremont">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
+                        <Button variant="contained" color="primary" className={classes.button}
                         >
-                        Explore Fremont
+                            Explore Fremont
                     </Button>
                     </Link>
-                    </CardActions> 
+                </CardActions>
             </Paper>
             <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
@@ -219,21 +180,18 @@ function PaperSheet(props) {
                         height="140"
                         image={AlkiBanner}
                         title="Alki (click to look at Alki page)"
-                    />                     
-                    <CardActions> 
+                    />
+                    <CardActions>
                         <Link to="/Landmarks/Alki">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}
-                        // component={Link}
-                        >
-                        Explore Alki
+                            <Button variant="contained" color="primary" className={classes.button}
+                            >
+                                Explore Alki
                     </Button>
-                    </Link>
-                    </CardActions>  
-                    </Card>
-                    </Paper>
-                    </div>
+                        </Link>
+                    </CardActions>
+                </Card>
+            </Paper>
+        </div>
     );
 
 }

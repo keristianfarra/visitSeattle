@@ -31,6 +31,12 @@ const styles = theme => ({
         textAlign: 'center',
         fontfamily: 'Roboto'
     },
+    button: {
+        margin: theme.spacing.unit,
+    },
+    input: {
+        display: 'none',
+    },
 });
 
 function PaperSheet(props) {
@@ -76,15 +82,14 @@ function PaperSheet(props) {
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <CardActions> 
-                    <Link to="/Landmarks/FremontTroll">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to the Fremont Troll 
+                    <CardActions>
+                        <Link to="/Landmarks/FremontTroll">
+                            <Button variant="contained" color="primary" className={classes.button}
+                            >
+                                Take me to the Fremont Troll
                     </Button>
-                    </Link>
-                    </CardActions>  
+                        </Link>
+                    </CardActions>
                 </Card>
 
                 <Card className={classes.card}>
@@ -109,15 +114,14 @@ function PaperSheet(props) {
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <CardActions> 
-                    <Link to="/Landmarks/LeninStatue">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to the Lenin Statue
+                    <CardActions>
+                        <Link to="/Landmarks/LeninStatue">
+                            <Button variant="contained" color="primary" className={classes.button}
+                            >
+                                Take me to the Lenin Statue
                     </Button>
-                    </Link>
-                    </CardActions>  
+                        </Link>
+                    </CardActions>
                 </Card>
 
                 <Card className={classes.card}>
@@ -143,15 +147,14 @@ function PaperSheet(props) {
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <CardActions> 
-                    <Link to="/Landmarks/FremontPublicMarket">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to the Fremont Public Market
+                    <CardActions>
+                        <Link to="/Landmarks/FremontPublicMarket">
+                            <Button variant="contained" color="primary" className={classes.button}
+                            >
+                                Take me to thße Fremont Public Market
                     </Button>
-                    </Link>
-                    </CardActions>  
+                        </Link>
+                    </CardActions>
                 </Card>
             </Paper>
         </div>

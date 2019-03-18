@@ -32,6 +32,12 @@ const styles = theme => ({
         textAlign: 'center',
         fontfamily: 'Roboto'
     },
+    button: {
+        margin: theme.spacing.unit,
+      },
+      input: {
+        display: 'none',
+      },
 });
 
 function PaperSheet(props) {
@@ -69,9 +75,8 @@ function PaperSheet(props) {
                     <CardActions> 
                     <Link to="/Landmarks/WestlakeShoppingCenter">
 
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
+                    <Button variant="contained" color="primary" className={classes.button}
+                        >
                         Take me to the Westlake Shopping Center
                     </Button>
                     </Link>
@@ -104,9 +109,8 @@ function PaperSheet(props) {
                     <CardActions> 
                     <Link to="/Landmarks/PikePlaceGumWall">
 
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
+                    <Button variant="contained" color="primary" className={classes.button}
+                        >
                         Take me to the Pike Place Gum Wall
                     </Button>
                     </Link>
@@ -140,9 +144,8 @@ function PaperSheet(props) {
                     <CardActions> 
                     <Link to="/Landmarks/GreatFerrisWheel">
 
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
+                    <Button variant="contained" color="primary" className={classes.button}
+                        >
                         Take me to the Great Ferris Wheel
                     </Button>
                     </Link>

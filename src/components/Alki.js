@@ -27,12 +27,6 @@ import Paper from '@material-ui/core/Paper';
 import LandmarksBanner from './LandmarksBanner.png';
 //Banners
 import AlkiBanner from './AlkiBanner.png'
-import FremontBanner from './FremontBanner.png'
-import LakeUnionBanner from './LakeUnionBanner.png'
-import QueenAnneBanner from './QueenAnneBanner.png'
-import UDistrictBanner from './UDistrictBanner.png'
-import DowntownBanner from './DowntownBanner.png'
-
 //Images for Alki page
 import AlkiPointLighthouse from './AlkiPointLighthouse.jpg';
 import AlkiBeach from './AlkiBeach.jpg';
@@ -52,6 +46,14 @@ const styles = theme => ({
         textAlign: 'center',
         fontfamily: 'Roboto'
     },
+    button: {
+        margin: theme.spacing.unit,
+    },
+    input: {
+        display: 'none',
+    },
+
+
 });
 
 function PaperSheet(props) {
@@ -102,15 +104,14 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions> 
-                    <Link to="/Landmarks/AlkiPointLighthouse">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to the Lighthouse
+                        <CardActions>
+                            <Link to="/Landmarks/AlkiPointLighthouse">
+                                <Button variant="contained" color="primary" className={classes.button}
+                                >
+                                    Take me to the Lighthouse
                     </Button>
-                    </Link>
-                    </CardActions>   
+                            </Link>
+                        </CardActions>
                     </Card>
 
                     <Card className={classes.card}>
@@ -134,15 +135,14 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions> 
-                    <Link to="/Landmarks/AlkiBeach">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to Alki Beach
+                        <CardActions>
+                            <Link to="/Landmarks/AlkiBeach">
+                                <Button variant="contained" color="primary" className={classes.button}
+                                >
+                                    Take me to Alki Beach
                     </Button>
-                    </Link>
-                    </CardActions> 
+                            </Link>
+                        </CardActions>
                     </Card>
 
                     <Card className={classes.card}>
@@ -173,15 +173,14 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions> 
-                    <Link to="/Landmarks/ReplicaStatueOfLiberty">
-                     <Button
-                        color="inherit"
-                        className={classes.loginButton}>
-                        Take me to Replica Statue of Liberty
+                        <CardActions>
+                            <Link to="/Landmarks/ReplicaStatueOfLiberty">
+                                <Button variant="contained" color="primary" className={classes.button}
+                                >
+                                    Take me to Replica Statue of Liberty
                     </Button>
-                    </Link>
-                    </CardActions>
+                            </Link>
+                        </CardActions>
                     </Card>
                 </Card>
             </Paper>

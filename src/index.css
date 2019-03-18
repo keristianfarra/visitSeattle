@@ -17,3 +17,7 @@ img {
   height: auto;
 }
 
+.MuiCardActions-root-71 {
+  display: flex;
+  justify-content: center;
+}
