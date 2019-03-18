@@ -17,7 +17,9 @@ import Paper from '@material-ui/core/Paper';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardMedia from '@material-ui/core/CardMedia';
-import home from './home.jpg';
+// import home from './home.jpg';
+import homeSeattle from './homeSeattle.jpg';
+
 
 function TabContainer(props) {
   return (
@@ -65,7 +67,7 @@ class Home extends React.Component {
                   alt="Visit Seattle Home Page"
                   className={classes.media}
                   height="140"
-                  image={home}
+                  image={homeSeattle}
                   title="Seattle Skyline"
                 />
               </CardActionArea>
