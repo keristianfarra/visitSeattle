@@ -8,7 +8,12 @@
 //So once you've made the landmarks pages individually and you're
 //Sure they work, link them to the landmarks page.
 
-import React from 'react';
+// import React from 'react';
+
+import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -97,6 +102,15 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions> 
+                    <Link to="/Landmarks/AlkiPointLighthouse">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Lighthouse
+                    </Button>
+                    </Link>
+                    </CardActions>   
                     </Card>
 
                     <Card className={classes.card}>
@@ -120,6 +134,15 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions> 
+                    <Link to="/Landmarks/AlkiBeach">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to Alki Beach
+                    </Button>
+                    </Link>
+                    </CardActions> 
                     </Card>
 
                     <Card className={classes.card}>
@@ -150,6 +173,15 @@ function PaperSheet(props) {
                             </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions> 
+                    <Link to="/Landmarks/ReplicaStatueOfLiberty">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to Replica Statue of Liberty
+                    </Button>
+                    </Link>
+                    </CardActions>
                     </Card>
                 </Card>
             </Paper>

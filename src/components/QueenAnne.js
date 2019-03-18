@@ -14,7 +14,7 @@ import QueenAnneSpaceNeedle from './QueenAnneSpaceNeedle.jpg';
 import QueenAnneMuseum from './QueenAnneMuseum.jpg';
 import QueenAnnePacificScienceCenter from './QueenAnnePacificScienceCenter.jpg';
 
-import React from 'react';
+// import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -25,6 +25,10 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 
+import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(),
@@ -50,7 +54,7 @@ function PaperSheet(props) {
                     <CardActionArea>
                         <Typography component="h1">
                             Queen Anne
-        </Typography>
+                        </Typography>
                         <CardMedia
                             component="img"
                             alt="Space Needle"
@@ -62,14 +66,24 @@ function PaperSheet(props) {
                         <CardContent>
                             <Typography component="h4">
                                 Space Needle
-            </Typography>
+                            </Typography>
                             <Typography component="p">
                                 <br />This iconic feat of engineering towers <br />
                                 over Seattle. At the top of the elevator is a <br />
                                 rotating restaurant.
-            </Typography>
+                            </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/SpaceNeedle">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the SpaceNeedle
+                    </Button>
+                    </Link>
+                    </CardActions> 
                 </Card>
 
                 <Card className={classes.card}>
@@ -85,15 +99,26 @@ function PaperSheet(props) {
                         <CardContent>
                             <Typography component="h4">
                                 Museum of Pop Culture
-            </Typography>
+                        </Typography>
                             <Typography component="p">
                                 <br />Formerly the EMP museum, this <br />
                                 interesting structure is located right <br />
                                 next to the Space Needle. The museum is a <br />
                                 monument to music and trends.
-            </Typography>
+                        </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/MoPOP">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Museum of Pop Culture
+                    </Button>
+                    </Link>
+                    </CardActions> 
+                
                 </Card>
 
                 <Card className={classes.card}>
@@ -118,6 +143,17 @@ function PaperSheet(props) {
             </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/PacificScienceCenter">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Pacific Science Center
+                    </Button>
+                    </Link>
+                    </CardActions> 
+                
                 </Card>
             </Paper>
 

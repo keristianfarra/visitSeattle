@@ -1,4 +1,9 @@
-import React from 'react';
+// import React from 'react';
+
+import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -61,6 +66,16 @@ function PaperSheet(props) {
                         </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/WestlakeShoppingCenter">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Westlake Shopping Center
+                    </Button>
+                    </Link>
+                    </CardActions> 
                 </Card>
 
                 <Card className={classes.card}>
@@ -86,6 +101,17 @@ function PaperSheet(props) {
                             </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/PikePlaceGumWall">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Pike Place Gum Wall
+                    </Button>
+                    </Link>
+                    </CardActions> 
+                
                 </Card>
 
                 <Card className={classes.card}>
@@ -111,6 +137,16 @@ function PaperSheet(props) {
                         </Typography>
                         </CardContent>
                     </CardActionArea>
+                    <CardActions> 
+                    <Link to="/Landmarks/GreatFerrisWheel">
+
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}>
+                        Take me to the Great Ferris Wheel
+                    </Button>
+                    </Link>
+                    </CardActions> 
                 </Card>
             </Paper>
         </div>
