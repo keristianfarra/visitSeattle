@@ -18,11 +18,21 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
+//Landmarks background image of the Space Needle
+import LandmarksBanner from './LandmarksBanner.png';
+//Banners
+import AlkiBanner from './AlkiBanner.png'
+import FremontBanner from './FremontBanner.png'
+import LakeUnionBanner from './LakeUnionBanner.png'
+import QueenAnneBanner from './QueenAnneBanner.png'
+import UDistrictBanner from './UDistrictBanner.png'
+import DowntownBanner from './DowntownBanner.png'
 
 //Images for Alki page
 import AlkiPointLighthouse from './AlkiPointLighthouse.jpg';
 import AlkiBeach from './AlkiBeach.jpg';
 import AlkiStatueOfLiberty from './AlkiStatueOfLiberty.jpg';
+
 
 
 const styles = theme => ({
@@ -45,7 +55,7 @@ function PaperSheet(props) {
     //Title card for the landmark page (need to change it to Alki title card)
     return (
         <div class="container">
-            <Paper className={classes.root} elevation={1}>
+            {/* <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
                     <CardMedia
                         component="img"
@@ -56,7 +66,7 @@ function PaperSheet(props) {
                         title="Landmarks in Seattle"
                     />
                 </Card>
-            </Paper>
+            </Paper> */}
 
 
             <Paper className={classes.root} elevation={1}>

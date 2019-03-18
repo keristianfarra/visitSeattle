@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -8,6 +8,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
+
+
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Alki from "./Alki";
 //Landmarks background image of the Space Needle
 import LandmarksBanner from './LandmarksBanner.png';
 
@@ -18,6 +25,11 @@ import LakeUnionBanner from './LakeUnionBanner.png'
 import QueenAnneBanner from './QueenAnneBanner.png'
 import UDistrictBanner from './UDistrictBanner.png'
 import DowntownBanner from './DowntownBanner.png'
+
+// import { Link } from 'react-router-dom'
+// import Alki from "./components/Alki";
+
+// const AlkiLink = props => <Link to="./components/Alki.js" {...props} />
 // //All the imports of images used in the landmarks cards.
 // //Imports are kept here as a backup comment in case other javascript files are corrupted.
 //
@@ -89,6 +101,17 @@ function PaperSheet(props) {
                         title="Queen Anne (click to look at Queen Anne page)"
                     />
                 </Card>
+                <CardActions> 
+                    <Link to="/Landmarks/QueenAnne">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore Queen Anne
+                    </Button>
+                    </Link>
+                    </CardActions> 
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -102,6 +125,17 @@ function PaperSheet(props) {
                         title="Downtown (click to look at Downtown page)"
                     />
                 </Card>
+                <CardActions> 
+                    <Link to="/Landmarks/Downtown">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore Downtown 
+                    </Button>
+                    </Link>
+                    </CardActions> 
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -115,6 +149,17 @@ function PaperSheet(props) {
                         title="Lake Union (click to look at Lake Union page)"
                     />
                 </Card>
+                <CardActions> 
+                        <Link to="/Landmarks/LakeUnion">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore Lake Union
+                    </Button>
+                    </Link>
+                    </CardActions> 
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -128,6 +173,17 @@ function PaperSheet(props) {
                         title="University District (click to look at U-District page)"
                     />
                 </Card>
+                <CardActions> 
+                    <Link to="/Landmarks/UDistrict">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore U-District
+                    </Button>
+                    </Link>
+                    </CardActions> 
             </Paper>
 
             <Paper className={classes.root} elevation={1}>
@@ -140,9 +196,20 @@ function PaperSheet(props) {
                         image={FremontBanner}
                         title="Fremont (click to look at Fremont page)"
                     />
+                    
                 </Card>
+                <CardActions> 
+                    <Link to="/Landmarks/Fremont">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore Fremont
+                    </Button>
+                    </Link>
+                    </CardActions> 
             </Paper>
-
             <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
                     <CardMedia
@@ -152,11 +219,21 @@ function PaperSheet(props) {
                         height="140"
                         image={AlkiBanner}
                         title="Alki (click to look at Alki page)"
-                    />
-                </Card>
-            </Paper>
-        </div>
-
+                    />                     
+                    <CardActions> 
+                        <Link to="/Landmarks/Alki">
+                     <Button
+                        color="inherit"
+                        className={classes.loginButton}
+                        // component={Link}
+                        >
+                        Explore Alki
+                    </Button>
+                    </Link>
+                    </CardActions>  
+                    </Card>
+                    </Paper>
+                    </div>
     );
 
 }

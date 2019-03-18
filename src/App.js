@@ -3,9 +3,20 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import Home from "./components/Home";
 import Community from "./components/Community";
-import Transportation from "./components/Transporation";
 import Landmarks from "./components/Landmarks";
-import Cafes from "./components/Cafes";
+
+/*Import Neighborhoods */
+import Alki from "./components/Alki";
+import QueenAnne from "./components/QueenAnne";
+import Downtown from "./components/Downtown";
+import LakeUnion from "./components/LakeUnion";
+import UDistrict from "./components/UDistrict";
+import Fremont from "./components/Fremont";
+
+
+
+
+
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import { Link } from "react-router-dom";
@@ -33,18 +44,29 @@ class App extends Component {
               {/* <Tab label = "Transporation" component ={Link} to = "/Transportation"/> */}
               <Tab label="Landmarks" component={Link} to="/Landmarks" />
               {/* <Tab label = "Cafes" component ={Link} to = "/Cafes"/> */}
+              {/* <Tab label="Alki" component={Link} to="/Landmarks/Alki" />  */}
+
+              
 
             </Tabs>
           </AppBar>
           <Route path="/" component={Home} exact />
 
           <Route path="/Community" component={Community} exact />
-
-          {/* <Route path = "/Transportation" component={Transportation} exact /> */}
-
           <Route path="/Landmarks" component={Landmarks} exact />
+          <Route path="/Landmarks/Alki" component={Alki} exact /> 
+          <Route path="/Landmarks/QueenAnne" component={QueenAnne} exact /> 
+          <Route path="/Landmarks/Downtown" component={Downtown} exact /> 
+          <Route path="/Landmarks/LakeUnion" component={LakeUnion} exact /> 
+          <Route path="/Landmarks/UDistrict" component={UDistrict} exact /> 
+          <Route path="/Landmarks/Fremont" component={Fremont} exact /> 
 
-          {/* <Route path = "/Cafes" component={Cafes} exact /> */}
+
+
+
+
+          
+
 
         </div>
 

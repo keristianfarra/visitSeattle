@@ -34,7 +34,7 @@ function PaperSheet(props) {
     //Title card for the landmark page (need to change it to Alki title card)
     return (
         <div class="container">
-            <Paper className={classes.root} elevation={1}>
+            {/* <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
                     <CardMedia
                         component="img"
@@ -45,7 +45,7 @@ function PaperSheet(props) {
                         title="Landmarks in Seattle"
                     />
                 </Card>
-            </Paper>
+            </Paper> */}
             <Paper className={classes.root} elevation={1}>
                 <Card className={classes.card}>
                     <CardActionArea>

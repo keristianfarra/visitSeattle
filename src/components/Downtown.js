@@ -11,7 +11,8 @@ import Paper from '@material-ui/core/Paper';
 
 //Images for Downtown page
 import DowntownWestlake from './DowntownWestlake.jpg';
-import DowntownGumWall from './DowntownGumWall.jpg';
+// import DowntownGumWall from './DowntownGumWall.jpg';
+import TheGumwall from './TheGumwall.jpg';
 import DowntownGreatWheel from './DowntownGreatWheel.jpg';
 
 const styles = theme => ({
@@ -69,7 +70,8 @@ function PaperSheet(props) {
                             alt="Pike Place Gum Wall"
                             className={classes.media}
                             height="140"
-                            image={DowntownGumWall}
+                            // image={DowntownGumWall}
+                            image= {TheGumwall}
                             title="Pike Place Gum Wall"
                         />
                         <CardContent>
