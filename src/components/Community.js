@@ -9,6 +9,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CommunityDiscussion from './CommunityDiscussion.png';
+import TextField from '@material-ui/core/TextField';
+import { Link } from 'react-router-dom';
 
 /*const styles = {
   card: {
@@ -79,7 +81,7 @@ function PaperSheet(props) {
 
   return (
 
-    <div class="container">
+    <div class="container" >
       <Paper className={classes.root} elevation={1}>
         <Card className={classes.card}>
           <CardActionArea>
@@ -101,24 +103,37 @@ function PaperSheet(props) {
                 Answer: There’s a good place underneath the 5th avenue theater called
                 “Umma’s Lunchbox”. Construction is happening there right now,
                 so you can also get in from the Hilton.
+
+                <br /><br /><br />
+                Question: What's the public transit situation like? Do the buses run on time?
+              <br /><br />
+                Answer: They're efficient for the most part! Seattle has a large bus system that covers most of the city.
+                <br /> <br /><br />
               </Typography>
+              <TextField
+                id="outlined-textarea"
+                label="Ask Seattle:"
+                placeholder="Have a comment?"
+                multiline
+                className={classes.textField}
+                margin="normal"
+                variant="outlined"
+              />
+              <br /><br />
+              <Button variant="contained" color="primary" className={classes.button} component={Link} to="">
+                Submit Comment
+              </Button>
             </CardContent>
           </CardActionArea>
-          <CardActions>
-            <Button variant="contained" size="medium" color="primary">
-              Ask a Question
-        </Button>
-            <Button variant="contained" size="medium" color="primary">
-              Answer a Question
-        </Button>
-          </CardActions>
         </Card>
       </Paper>
-    </div>
+
+    </div >
 
   );
 
 }
+
 
 
 PaperSheet.propTypes = {
@@ -126,3 +141,4 @@ PaperSheet.propTypes = {
 };
 
 export default withStyles(styles)(PaperSheet);
+
