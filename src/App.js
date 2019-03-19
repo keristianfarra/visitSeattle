@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import Home from "./components/Home";
+import About from "./components/About";
+
 import Community from "./components/Community";
 import Landmarks from "./components/Landmarks";
 
@@ -42,14 +44,12 @@ class App extends Component {
               {/* <Tab label = "Transporation" component ={Link} to = "/Transportation"/> */}
               <Tab label="Landmarks" component={Link} to="/Landmarks" />
               {/* <Tab label = "Cafes" component ={Link} to = "/Cafes"/> */}
-              {/* <Tab label="Alki" component={Link} to="/Landmarks/Alki" />  */}
-
-
+              <Tab label = "About" component ={Link} to = "/About"/> */}
 
             </Tabs>
           </AppBar>
           <Route path="/" component={Home} exact />
-
+          <Route path="/About" component={About} exact />
           <Route path="/Community" component={Community} exact />
           <Route path="/Landmarks" component={Landmarks} exact />
           <Route path="/Landmarks/Alki" component={Alki} exact />

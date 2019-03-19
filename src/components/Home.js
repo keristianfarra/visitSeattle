@@ -18,7 +18,8 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardMedia from '@material-ui/core/CardMedia';
 // import home from './home.jpg';
-import homeSeattle from './homeSeattle.jpg';
+import homeSeattle from './homeSeattle.png';
+
 
 
 function TabContainer(props) {
@@ -57,7 +58,7 @@ class Home extends React.Component {
 
         </div>
 
-        {/* <SimpleSlider/> */}
+    
         <div class="container">
           <Paper className={classes.root} elevation={1}>
             <Card className={classes.card}>
