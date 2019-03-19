@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "1da2c8153c4b9015bbfb6e3a382e7d96",
-    "url": "/visitSeattle/static/media/QueenAnneSpaceNeedle.1da2c815.jpg"
+    "revision": "7dd53f267ea7766bdf0b21e9dd2808c9",
+    "url": "/visitSeattle/static/media/DowntownBanner.7dd53f26.png"
   },
   {
-    "revision": "245303b0812134b9f45c",
+    "revision": "d01343983584ae2ad97f",
     "url": "/visitSeattle/static/css/main.146ba379.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/js/runtime~main.427cc8e6.js"
   },
   {
-    "revision": "be8d3250b69bc5f24227",
-    "url": "/visitSeattle/static/js/2.be8d3250.chunk.js"
+    "revision": "b5b2cede88808c5bb56b",
+    "url": "/visitSeattle/static/js/2.b5b2cede.chunk.js"
   },
   {
     "revision": "c82433c9f604081ade021772d9cd4004",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "5691db4c0ca9b684aa3f78b9cca509db",
     "url": "/visitSeattle/static/media/homeSeattle.5691db4c.png"
+  },
+  {
+    "revision": "7ed8e0d8cd8e7d9fe48a123775581bb3",
+    "url": "/visitSeattle/static/media/welcomeToSeattle.7ed8e0d8.png"
   },
   {
     "revision": "3dff291d0f9321a607a9093b70e35111",
@@ -60,12 +64,12 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/UDistrictBanner.459bc2ed.png"
   },
   {
-    "revision": "7dd53f267ea7766bdf0b21e9dd2808c9",
-    "url": "/visitSeattle/static/media/DowntownBanner.7dd53f26.png"
+    "revision": "d01343983584ae2ad97f",
+    "url": "/visitSeattle/static/js/main.d0134398.chunk.js"
   },
   {
-    "revision": "245303b0812134b9f45c",
-    "url": "/visitSeattle/static/js/main.245303b0.chunk.js"
+    "revision": "1da2c8153c4b9015bbfb6e3a382e7d96",
+    "url": "/visitSeattle/static/media/QueenAnneSpaceNeedle.1da2c815.jpg"
   },
   {
     "revision": "a13348904ea3db018364bc2231da1296",
@@ -124,7 +128,7 @@ self.__precacheManifest = [
     "url": "/visitSeattle/static/media/FremontPublicMarket.5c1d85cc.jpg"
   },
   {
-    "revision": "12a43dc264f04bcbc0d818ceb40e4c97",
+    "revision": "40aef92db34768a993c097de175bf1f4",
     "url": "/visitSeattle/index.html"
   }
 ];

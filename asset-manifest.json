@@ -1,13 +1,13 @@
 {
   "main.css": "/visitSeattle/static/css/main.146ba379.chunk.css",
-  "main.js": "/visitSeattle/static/js/main.245303b0.chunk.js",
-  "main.js.map": "/visitSeattle/static/js/main.245303b0.chunk.js.map",
+  "main.js": "/visitSeattle/static/js/main.d0134398.chunk.js",
+  "main.js.map": "/visitSeattle/static/js/main.d0134398.chunk.js.map",
   "runtime~main.js": "/visitSeattle/static/js/runtime~main.427cc8e6.js",
   "runtime~main.js.map": "/visitSeattle/static/js/runtime~main.427cc8e6.js.map",
-  "static/js/2.be8d3250.chunk.js": "/visitSeattle/static/js/2.be8d3250.chunk.js",
-  "static/js/2.be8d3250.chunk.js.map": "/visitSeattle/static/js/2.be8d3250.chunk.js.map",
+  "static/js/2.b5b2cede.chunk.js": "/visitSeattle/static/js/2.b5b2cede.chunk.js",
+  "static/js/2.b5b2cede.chunk.js.map": "/visitSeattle/static/js/2.b5b2cede.chunk.js.map",
   "index.html": "/visitSeattle/index.html",
-  "precache-manifest.684f42ff7335130df228ddab7d236893.js": "/visitSeattle/precache-manifest.684f42ff7335130df228ddab7d236893.js",
+  "precache-manifest.414a514de057f65100c06e7ce7dbc6d4.js": "/visitSeattle/precache-manifest.414a514de057f65100c06e7ce7dbc6d4.js",
   "service-worker.js": "/visitSeattle/service-worker.js",
   "static/css/main.146ba379.chunk.css.map": "/visitSeattle/static/css/main.146ba379.chunk.css.map",
   "static/media/AlkiBanner.png": "/visitSeattle/static/media/AlkiBanner.d4f02d1f.png",
@@ -36,5 +36,6 @@
   "static/media/UDistrictBanner.png": "/visitSeattle/static/media/UDistrictBanner.459bc2ed.png",
   "static/media/UDistrictBurkeMuseum.jpg": "/visitSeattle/static/media/UDistrictBurkeMuseum.797f836c.jpg",
   "static/media/UDistrictUniversity.jpg": "/visitSeattle/static/media/UDistrictUniversity.adb3313c.jpg",
-  "static/media/homeSeattle.png": "/visitSeattle/static/media/homeSeattle.5691db4c.png"
+  "static/media/homeSeattle.png": "/visitSeattle/static/media/homeSeattle.5691db4c.png",
+  "static/media/welcomeToSeattle.png": "/visitSeattle/static/media/welcomeToSeattle.7ed8e0d8.png"
 }
